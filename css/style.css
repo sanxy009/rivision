@@ -1,0 +1,165 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap" rel="stylesheet">
+*{
+	margin: 0 auto ;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+body{
+	font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+	font-size: 16px;
+	color: #666;
+
+}
+img{
+	max-width: 100%;
+	display: :block;
+
+}
+
+
+.container {
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header  {
+    background: #0a0a0a;
+    text-align: center;
+}
+header h1 {
+    color: aliceblue;
+    text-align: ;
+}
+header h1 a {
+    display:inline-block;
+    text-decoration: none;
+    color: green;
+    font-size: 12px;
+    vertical-align: middle;
+
+}
+
+/** nav**/
+nav {
+     
+    border-bottom: 2px solid #0060082e;
+}
+
+ nav ul{text-align: center;}
+
+nav ul li {display: inline-block;}
+nav ul li a {
+	display:block;
+text-decoration: none;
+color: #666;
+font-size: 20px;
+padding: 18px;}
+nav ul li a:hover{ color: #008000;
+font-weight: 250px; }
+
+
+
+/***course-section**/
+.course-section{}
+.course-heading{text-align:center;
+padding: 30px 0 ;}
+.course-heading h2{}
+.course-heading p{
+	color: #666;
+}
+
+
+
+/*** aside**/
+aside {
+    width: 20%;
+    float: left;
+}
+aside ul{}
+aside ul li{ 	text-decoration: none;
+
+}
+aside ul li a{
+
+    margin-bottom: 10px;
+   
+  text-decoration: none;
+    display: block;
+    font-size: 20px;
+    color: #a2a26a;
+
+}
+
+aside ul li a:hover{
+	font-weight: 900;
+}
+aside ul li a:focus{
+	font-weight: 900;
+}
+
+
+
+/***courses**/
+.courses{
+	width: 80%;
+	float: right;
+	overflow: hidden;
+}
+.courses .course {
+
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.courses .course a{
+	text-decoration: none;
+	
+
+	display: block;
+}
+.courses .course img{
+	height: 180px;
+	max-width: 100%;
+	transition: 0.5s;
+}
+.courses .course img:hover{ opacity: 0.5;
+ }
+.courses .course h3{font-size:15px;
+	margin-top: 5px;
+color: #b59696;
+transition: 0.5s;}
+.courses .course :hover h3{margin-left:10px;}
+
+
+
+/*** footer **/
+footer{background-color: #de267b0a;}
+.feature{    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 80px;
+    text-align: center;
+
+}
+.feature h4 {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    color: #caca98;
+}
+.feature h4 strong{color: #6f6f50;}
+.feature p{}
+
+
+.container-2{width: 100%}
+.container-2 iframe{margin: auto 0;}
+.container-2 iframe div{
+	
+}
